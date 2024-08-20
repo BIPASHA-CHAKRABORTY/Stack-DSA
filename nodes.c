@@ -63,7 +63,7 @@ void append(struct node **ps,int x)
     {
         temp=temp->next;
     }
-    temp->next=p;
+    p=temp->next;
     printf("\nNode successfully added");
 }
 void display(struct node *p)
